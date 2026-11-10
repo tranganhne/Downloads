@@ -1,0 +1,8 @@
+langgraph>=0.2
+tree-sitter>=0.23
+tree-sitter-python>=0.23
+networkx>=3.2
+pydantic>=2.5
+SQLAlchemy>=2.0
+streamlit>=1.35
+pytest>=8.0

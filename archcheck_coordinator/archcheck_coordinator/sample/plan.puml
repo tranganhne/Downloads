@@ -1,0 +1,12 @@
+@startuml
+component [Controller]
+component [Service]
+component [Repository]
+
+' @map Controller = api
+' @map Service = service
+' @map Repository = repo
+
+[Controller] --> [Service]
+[Service] --> [Repository]
+@enduml
